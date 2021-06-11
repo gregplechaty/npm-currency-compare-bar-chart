@@ -1,0 +1,24 @@
+.ExchangeRateChart-bar {
+  grid-column: 2;
+  background-color: var(--secondary-color);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 1.4rem;
+  transition: box-shadow .2s, font-size .2s;
+  border: solid 2px black;
+}
+
+.ExchangeRateChart-bar:hover {
+      box-shadow: 5px 5px 10px 5px #000000;
+      font-size: 1.6rem;        
+}
+
+
+.ExchangeRateChart-bar-text {
+  padding: 10px;
+  text-align: end;
+  
+  
+}
+
