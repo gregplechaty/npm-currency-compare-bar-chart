@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import Legend from '../Legend/Legend.js';
 import BarChart from '../BarChart/BarChart.js';
 import ChartContainer from '../ChartContainer/ChartContainer.js';
-import './CurrencyCompareBarChart.css';
+import './ExchangeRateBarChart.css';
 
-function CurrencyCompareBarChart(props) {
+function ExchangeRateBarChart(props) {
   
     const [stateObjects, setStateObjects] = useState([]);
     const [numMonths, setNumMonths] = useState('4')
@@ -85,8 +85,10 @@ function CurrencyCompareBarChart(props) {
   return (
     
     <div className="ExchangeRate">
-        <ChartContainer>
+        <ChartContainer
+        title={props.title}>
             <Legend
+                currencyList={props.currencyList}
                 startMonth={startMonth}
                 onChange={ev => setStartMonth(ev.target.value)}
                 startYear={startYear}
@@ -106,4 +108,4 @@ function CurrencyCompareBarChart(props) {
   );
 }
 
-export default CurrencyCompareBarChart;
+export default ExchangeRateBarChart;

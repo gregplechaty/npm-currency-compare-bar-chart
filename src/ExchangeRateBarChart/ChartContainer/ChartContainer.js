@@ -10,7 +10,7 @@ function ChartContainer(props) {
             <div className="ExchangeRateChart-margin-top">
             </div>
             <div className="ExchangeRateChart-title">
-                <h3>Currency Exchange Rates</h3>
+                <h3>{props.title ? props.title : 'Exchange Rates'}</h3>
             </div>
             <div className="ExchangeRateChart-margin">
             </div>

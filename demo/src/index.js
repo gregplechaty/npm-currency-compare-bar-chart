@@ -2,29 +2,20 @@ import React, { useState } from 'react'
 import {render} from 'react-dom'
 //TODO: SOME KIND OF LOGO 
 //import logo from './logo.svg';
-//TODO if necessary::::: import './index.css';
 
-import {CurrencyCompareBarChart} from '../../src';
+import {ExchangeRateBarChart} from '../../src';
 
 function App() {
   
     return (
     <div>
-      <h1>currency-compare-bar-chart Demo</h1>
-      <CurrencyCompareBarChart/>
+      <h1>Exchange Rate bar Chart</h1>
+      <ExchangeRateBarChart
+      title='Your Custom Title'
+      currencyList={['USD', 'EUR', 'JPY', 'GBP', 'HKD',]}/>
     </div>
+    
       )
   };
   
-
-/*
-export default class Demo extends Component {
-  render() {
-    return <div>
-      <h1>currency-compare-bar-chart Demo</h1>
-      <CurrencyCompareBarChart/>
-    </div>
-  }*/
-
-
-render(<CurrencyCompareBarChart/>, document.querySelector('#demo'))
+render(<App/>, document.querySelector('#demo'))

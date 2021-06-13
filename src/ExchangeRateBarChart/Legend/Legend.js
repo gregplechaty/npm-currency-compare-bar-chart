@@ -3,8 +3,8 @@ import './Legend.css';
 import StartMonth from '../StartMonth/StartMonth.js';
 
 function Legend(props) {
-    
-    const currencies = ['USD', 'EUR', 'JPY', 'GBP', 'AUD', 'HKD',]
+    let currencies = ['USD', 'EUR', 'JPY', 'GBP', 'AUD', 'HKD',];
+    if (props.currencyList) {currencies = props.currencyList};
 
   return (
     <div className="ExchangeRateChart-legend">

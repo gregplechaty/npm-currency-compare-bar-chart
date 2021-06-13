@@ -1,3 +1,3 @@
-import CurrencyCompareBarChart from './CurrencyCompareBarChart/CurrencyCompareBarChart/CurrencyCompareBarChart.js';
+import ExchangeRateBarChart from './ExchangeRateBarChart/ExchangeRateBarChart/ExchangeRateBarChart.js';
 
-export {  CurrencyCompareBarChart  }
+export {  ExchangeRateBarChart  }
