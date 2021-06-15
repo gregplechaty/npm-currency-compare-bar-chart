@@ -1,8 +1,8 @@
 {
   "name": "react-exchange-rate-bar-chart",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component that renders an interactive bar chart comparing two currencies over a variable number of months.",
-  "main": "lib/index.js",
+  "main": "lib/index",
   "module": "es/index.js",
   "homepage": "",
   "files": [
@@ -31,7 +31,7 @@
   },
   "author": "Greg Plechaty",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/gregplechaty/npm-currency-compare-bar-chart",
   "keywords": [
     "react-component",
     "exchange rate",
