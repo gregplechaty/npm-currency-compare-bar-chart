@@ -8,6 +8,7 @@ import {ExchangeRateBarChart} from '../../src';
 function App() {
   
     return (
+    //Note that two optional props are in use
     <div>
       <h1>Exchange Rate bar Chart</h1>
       <ExchangeRateBarChart

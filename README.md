@@ -1,8 +1,10 @@
-# currency-compare-bar-chart
+# react-currency-compare-bar-chart
 
 [![Travis][build-badge]][build]
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
+
+!(./demo/src/logo.png)
 
 ## Thanks for checking out react-exchange-rate-bar-chart.
 
@@ -12,12 +14,16 @@ Github: https://github.com/gregplechaty/npm-currency-compare-bar-chart
 - Return data across several months
 - Users can choose currencies and number of months to return data for
 
+!(./demo/componentScreenshot.png)
+
+
+
 ## Installation & Usage
 ```
 npm install react-currency-compare-bar-chart --save
 ```
 
-### **Include the Component**
+### **Including the Component**
 ```
 import React from 'react'
 import { CurrencyCompareBarChart } from 'react-currency-compare-bar-chart'
@@ -40,7 +46,8 @@ function App() {
 Data comes from the "exchangerate.host" API. Documentation can be found here: https://exchangerate.host/. This is rather useful if you're interestred in customizing the chart further.
 If you use this component in your project, feel free to give them a shoutout!
 
-## Optional customization - To come in future versions
+#### Questions? Ideas? Feel free
+
 
 [build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
 [build]: https://travis-ci.org/user/repo
