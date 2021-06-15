@@ -4,7 +4,7 @@
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
 
-!(./demo/src/logo.png)
+![logo](./demo/src/logo.png)
 
 ## Thanks for checking out react-exchange-rate-bar-chart.
 
@@ -14,7 +14,7 @@ Github: https://github.com/gregplechaty/npm-currency-compare-bar-chart
 - Return data across several months
 - Users can choose currencies and number of months to return data for
 
-!(./demo/componentScreenshot.png)
+![component screenshot](./demo/componentScreenshot.png)
 
 
 
