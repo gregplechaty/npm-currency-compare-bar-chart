@@ -1,6 +1,6 @@
 {
   "name": "react-exchange-rate-bar-chart",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "React component that renders an interactive bar chart comparing two currencies over a variable number of months.",
   "main": "lib/index.js",
   "module": "es/index.js",
