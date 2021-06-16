@@ -8,7 +8,7 @@
 
 ## Thanks for checking out react-exchange-rate-bar-chart.
 
-Github: https://github.com/gregplechaty/npm-currency-compare-bar-chart
+Demo: https://gregplechaty.github.io/npm-currency-compare-bar-chart/
 
 - Compare exchange rates between currencies
 - Return data across several months
