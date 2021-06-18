@@ -34,6 +34,7 @@ function App() {
     </div>
     )
   };
+export default App;
 ```
 ### **Optional Properties**
 - **title**: Sets the chart title.
