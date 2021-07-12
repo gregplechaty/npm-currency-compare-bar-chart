@@ -1,4 +1,4 @@
-# react-currency-compare-bar-chart
+# react-exchange-rate-bar-chart
 
 [![Travis][build-badge]][build]
 [![npm package][npm-badge]][npm]
